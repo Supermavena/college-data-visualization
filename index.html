@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Data Visualization</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-100 text-gray-700 font-poppins">
+    <header class="bg-blue-500 text-white py-4 px-6 mb-8">
+        <h1 class="text-2xl font-bold text-center">College Data Visualization</h1>
+    </header>
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap gap-4">
+            <div class="graph-container" id="chart-container1">
+                <h2 class="text-xl font-semibold mb-4">Question 1: What should I major in to make the most money after graduation?</h2>
+            </div>
+            <div class="graph-container" id="chart-container2">
+                <h2 class="text-xl font-semibold mb-4">Question 2: Will high SAT score improve my employment outcomes?</h2>
+            </div>
+            <div class="graph-container" id="chart-container3">
+                <h2 class="text-xl font-semibold mb-4">Question 3: Are there more affordable alternatives to the US News Top 50 that would get me comparable outcomes?</h2>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
